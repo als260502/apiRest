@@ -9,7 +9,12 @@
 namespace App\DAO\Mysql\CodeeasyGerenciadorDeLojas;
 
 
-class ProdutosDAO
+class ProdutosDAO extends Conexao
 {
+    public function __construct()
+    {
+        parent::__construct();
+
+    }
 
 }
